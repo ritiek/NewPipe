@@ -363,7 +363,7 @@ public final class ListHelper {
         } else if (formatKey.equals(context.getString(R.string.video_3gp_key))) {
             format = MediaFormat.v3GPP;
         } else if (formatKey.equals(context.getString(R.string.audio_webm_key))) {
-            format = MediaFormat.WEBMA;
+            format = MediaFormat.OPUS;
         } else if (formatKey.equals(context.getString(R.string.audio_m4a_key))) {
             format = MediaFormat.M4A;
         }
